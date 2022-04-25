@@ -4,6 +4,10 @@
 
 [Full Changelog](https://github.com/buluma/ansible-role-jitsi/compare/0.1.1...HEAD)
 
+**Implemented enhancements:**
+
+- gitlab [\#2](https://github.com/buluma/ansible-role-jitsi/pull/2) ([buluma](https://github.com/buluma))
+
 **Closed issues:**
 
 - Add to tracker [\#1](https://github.com/buluma/ansible-role-jitsi/issues/1)
