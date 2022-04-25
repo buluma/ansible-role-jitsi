@@ -7,4 +7,5 @@
   roles:
     - role: buluma.bootstrap
     - role: buluma.ca_certificates
+    - role: buluma.openjdk
     - role: buluma.hostname
