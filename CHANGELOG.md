@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.1.3](https://github.com/buluma/ansible-role-jitsi/tree/0.1.3) (2022-05-13)
+
+[Full Changelog](https://github.com/buluma/ansible-role-jitsi/compare/0.1.2...0.1.3)
+
 ## [0.1.2](https://github.com/buluma/ansible-role-jitsi/tree/0.1.2) (2022-05-11)
 
 [Full Changelog](https://github.com/buluma/ansible-role-jitsi/compare/0.1.1...0.1.2)
