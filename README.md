@@ -1,10 +1,10 @@
-# [Ansible role jitsi](#jitsi)
+# Ansible role [jitsi](https://galaxy.ansible.com/ui/standalone/roles/buluma/jitsi/documentation)
 
 Install and configure jitsi on your system.
 
-|GitHub|Version|Issues|Pull Requests|
-|------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-jitsi/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-jitsi/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-jitsi.svg)](https://github.com/buluma/ansible-role-jitsi/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-jitsi.svg)](https://github.com/buluma/ansible-role-jitsi/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-jitsi.svg)](https://github.com/buluma/ansible-role-jitsi/pulls/)|
+|GitHub|Version|Issues|Pull Requests|Downloads|
+|------|-------|------|-------------|---------|
+|[![github](https://github.com/buluma/ansible-role-jitsi/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-jitsi/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-jitsi.svg)](https://github.com/buluma/ansible-role-jitsi/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-jitsi.svg)](https://github.com/buluma/ansible-role-jitsi/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-jitsi.svg)](https://github.com/buluma/ansible-role-jitsi/pulls/)|[![Ansible Role](https://img.shields.io/ansible/role/d/buluma/jitsi)](https://galaxy.ansible.com/ui/standalone/roles/buluma/jitsi/documentation)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -115,13 +115,11 @@ If you find issues, please register them in [GitHub](https://github.com/buluma/a
 
 ## [License](#license)
 
-[Apache-2.0](https://github.com/buluma/ansible-role-jitsi/blob/master/LICENSE).
+[Apache-2.0](https://github.com/buluma/ansible-role-jitsi/blob/master/LICENSE)
 
 ## [Author Information](#author-information)
 
-[buluma](https://buluma.github.io/)
+[Shadow Walker](https://buluma.github.io/)
 
-
-### [Special Thanks](#special-thanks)
 
 Template inspired by [Robert de Bock](https://github.com/robertdebock)
