@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-jitsi/tree/HEAD)
+## [24.3.31](https://github.com/buluma/ansible-role-jitsi/tree/24.3.31) (2024-03-26)
 
-[Full Changelog](https://github.com/buluma/ansible-role-jitsi/compare/0.4.0...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-jitsi/compare/0.4.0...24.3.31)
 
 **Merged pull requests:**
 
