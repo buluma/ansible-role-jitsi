@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-jitsi/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-jitsi/compare/24.3.31...HEAD)
+
+**Merged pull requests:**
+
+- Bump ansible/ansible-lint from 24.7.0 to 24.9.0 [\#25](https://github.com/buluma/ansible-role-jitsi/pull/25) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [24.3.31](https://github.com/buluma/ansible-role-jitsi/tree/24.3.31) (2024-03-26)
 
 [Full Changelog](https://github.com/buluma/ansible-role-jitsi/compare/0.4.0...24.3.31)
