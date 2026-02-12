@@ -5,4 +5,4 @@
 repository:
   description: Install and configure jitsi on your system.
   homepage: https://buluma.github.io/
-  topics: jitsi, ansible, molecule, tox, playbook
+  topics: jitsi, ansible, molecule, playbook
