@@ -4,6 +4,10 @@
 
 [Full Changelog](https://github.com/buluma/ansible-role-jitsi/compare/24.3.31...HEAD)
 
+**Closed issues:**
+
+- rebuild action [\#11](https://github.com/buluma/ansible-role-jitsi/issues/11)
+
 **Merged pull requests:**
 
 - Bump ansible/ansible-lint from 24.12.2 to 25.1.0 [\#31](https://github.com/buluma/ansible-role-jitsi/pull/31) ([dependabot[bot]](https://github.com/apps/dependabot))
