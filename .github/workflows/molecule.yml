@@ -41,7 +41,7 @@ jobs:
       matrix:
         distro:
           - image: "docker-molecule-images"
-            tag: "latest"
+            tag: "debian_latest"
           - image: "docker-molecule-images"
             tag: "bookworm"
           - image: "docker-molecule-images"
