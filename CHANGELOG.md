@@ -6,6 +6,7 @@
 
 **Closed issues:**
 
+- Update action [\#12](https://github.com/buluma/ansible-role-jitsi/issues/12)
 - rebuild action [\#11](https://github.com/buluma/ansible-role-jitsi/issues/11)
 
 **Merged pull requests:**
