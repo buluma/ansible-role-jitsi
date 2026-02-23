@@ -12,29 +12,29 @@ This example is taken from [`molecule/default/converge.yml`](https://github.com/
 
 ```yaml
 ---
-  - name: Converge
-    hosts: all
-    become: true
-    gather_facts: true
+- name: Converge
+  hosts: all
+  become: true
+  gather_facts: true
 
-    roles:
-      - role: buluma.jitsi
+  roles:
+  - role: buluma.jitsi
 ```
 
 The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-jitsi/blob/master/molecule/default/prepare.yml):
 
 ```yaml
 ---
-  - name: Prepare
-    hosts: all
-    become: true
-    gather_facts: false
+- name: Prepare
+  hosts: all
+  become: true
+  gather_facts: false
 
-    roles:
-      - role: buluma.bootstrap
-      - role: buluma.ca_certificates
-      - role: buluma.java
-      - role: buluma.hostname
+  roles:
+  - role: buluma.bootstrap
+  - role: buluma.ca_certificates
+  - role: buluma.java
+  - role: buluma.hostname
 ```
 
 Also see a [full explanation and example](https://buluma.github.io/how-to-use-these-roles.html) on how to use these roles.
@@ -52,23 +52,23 @@ jitsi_release: stable
 
 # Settings used for the installation of jitsi-meet
 jitsi_settings:
-  - name: jitsi-meet
-    question: jitsi-meet/cert-choice
-    value: "Generate a new self-signed certificate (You will later get a chance to
-      obtain a Let's encrypt certificate)"
-    type: string
-  - name: jitsi-meet
-    question: jitsi-meet/jvb-serve
-    value: true|bool
-    type: boolean
-  - name: jitsi-meet-prosody
-    question: jitsi-meet-prosody/jvb-hostname
-    value: "{{ ansible_fqdn }}"
-    type: string
-  - name: jitsi-videobridge
-    question: jitsi-videobridge/jvb-hostname
-    value: "{{ ansible_fqdn }}"
-    type: string
+- name: jitsi-meet
+  question: jitsi-meet/cert-choice
+  value: "Generate a new self-signed certificate (You will later get a chance to obtain
+    a Let's encrypt certificate)"
+  type: string
+- name: jitsi-meet
+  question: jitsi-meet/jvb-serve
+  value: true|bool
+  type: boolean
+- name: jitsi-meet-prosody
+  question: jitsi-meet-prosody/jvb-hostname
+  value: "{{ ansible_fqdn }}"
+  type: string
+- name: jitsi-videobridge
+  question: jitsi-videobridge/jvb-hostname
+  value: "{{ ansible_fqdn }}"
+  type: string
 ```
 
 ## [Requirements](#requirements)
