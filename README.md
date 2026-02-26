@@ -52,23 +52,22 @@ jitsi_release: stable
 
 # Settings used for the installation of jitsi-meet
 jitsi_settings:
-- name: jitsi-meet
-  question: jitsi-meet/cert-choice
-  value: "Generate a new self-signed certificate (You will later get a chance to obtain
-    a Let's encrypt certificate)"
-  type: string
-- name: jitsi-meet
-  question: jitsi-meet/jvb-serve
-  value: true|bool
-  type: boolean
-- name: jitsi-meet-prosody
-  question: jitsi-meet-prosody/jvb-hostname
-  value: "{{ ansible_fqdn }}"
-  type: string
-- name: jitsi-videobridge
-  question: jitsi-videobridge/jvb-hostname
-  value: "{{ ansible_fqdn }}"
-  type: string
+  - name: jitsi-meet
+    question: jitsi-meet/cert-choice
+    value: "Generate a new self-signed certificate (You will later get a chance to obtain a Let's encrypt certificate)"
+    type: string
+  - name: jitsi-meet
+    question: jitsi-meet/jvb-serve
+    value: true|bool
+    type: boolean
+  - name: jitsi-meet-prosody
+    question: jitsi-meet-prosody/jvb-hostname
+    value: "{{ ansible_fqdn }}"
+    type: string
+  - name: jitsi-videobridge
+    question: jitsi-videobridge/jvb-hostname
+    value: "{{ ansible_fqdn }}"
+    type: string
 ```
 
 ## [Requirements](#requirements)
