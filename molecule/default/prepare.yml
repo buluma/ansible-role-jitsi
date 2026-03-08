@@ -5,7 +5,7 @@
   gather_facts: false
 
   roles:
-  - role: buluma.bootstrap
-  - role: buluma.ca_certificates
-  - role: buluma.java
-  - role: buluma.hostname
+    - role: buluma.bootstrap
+    - role: buluma.ca_certificates
+    - role: buluma.java
+    - role: buluma.hostname
