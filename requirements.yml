@@ -4,4 +4,4 @@ roles:
   - name: buluma.ca_certificates
   - name: buluma.java
   - name: buluma.hostname
-collections:
+collections: []
