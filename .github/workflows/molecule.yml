@@ -42,32 +42,22 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
+      # Jitsi Meet has never published RPM packages (download.jitsi.org is
+      # apt-only), so EL/Fedora are dropped - not a supported platform.
+      # debian11 and ubuntu2204 are dropped too: their distro archives
+      # permanently ship prosody < 0.12 (confirmed via Launchpad), while
+      # jitsi-meet-prosody now requires >= 0.12.0 - a structural
+      # incompatibility, not something this role can work around.
       matrix:
         distro:
-          - image: "docker-molecule-images"
-            tag: "rockylinux10"
-          - image: "docker-molecule-images"
-            tag: "almalinux10"
-          - image: "docker-molecule-images"
-            tag: "rockylinux9"
-          - image: "docker-molecule-images"
-            tag: "almalinux9"
           - image: "docker-molecule-images"
             tag: "debian13"
           - image: "docker-molecule-images"
             tag: "debian12"
           - image: "docker-molecule-images"
-            tag: "debian11"
-          - image: "docker-molecule-images"
-            tag: "fedora44"
-          - image: "docker-molecule-images"
-            tag: "fedora43"
-          - image: "docker-molecule-images"
             tag: "ubuntu2604"
           - image: "docker-molecule-images"
             tag: "ubuntu2404"
-          - image: "docker-molecule-images"
-            tag: "ubuntu2204"
     steps:
       - name: checkout
         uses: actions/checkout@v7
