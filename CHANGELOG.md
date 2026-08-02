@@ -1,5 +1,9 @@
 # Changelog
 
+## [26.6.2](https://github.com/buluma/ansible-role-jitsi/tree/26.6.2) (2026-07-24)
+
+[Full Changelog](https://github.com/buluma/ansible-role-jitsi/compare/26.6.1...26.6.2)
+
 ## [26.6.1](https://github.com/buluma/ansible-role-jitsi/tree/26.6.1) (2026-06-14)
 
 [Full Changelog](https://github.com/buluma/ansible-role-jitsi/compare/26.6.0...26.6.1)
