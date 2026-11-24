@@ -34,7 +34,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@v7
       - name: ansible-lint
-        uses: ansible/ansible-lint@v26.6.0
+        uses: ansible/ansible-lint@v26.11.0
 
   molecule:
     needs:
@@ -42,12 +42,6 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
-      # Jitsi Meet has never published RPM packages (download.jitsi.org is
-      # apt-only), so EL/Fedora are dropped - not a supported platform.
-      # debian11 and ubuntu2204 are dropped too: their distro archives
-      # permanently ship prosody < 0.12 (confirmed via Launchpad), while
-      # jitsi-meet-prosody now requires >= 0.12.0 - a structural
-      # incompatibility, not something this role can work around.
       matrix:
         distro:
           - image: "docker-molecule-images"
@@ -86,7 +80,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip3 install ansible molecule molecule-plugins[docker] docker
+          pip3 install "ansible==15.0.0" "molecule==26.11.0" "molecule-plugins[docker]==26.11.0" "docker==7.2.0"
 
       - name: Test with molecule
         run: |
