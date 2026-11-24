@@ -52,8 +52,6 @@ jobs:
             tag: "ubuntu2604"
           - image: "docker-molecule-images"
             tag: "ubuntu2404"
-          - image: "docker-molecule-images"
-            tag: "ubuntu2204"
     steps:
       - name: checkout
         uses: actions/checkout@v7

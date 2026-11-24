@@ -129,7 +129,7 @@ This role has been tested on these [container images](https://hub.docker.com/u/b
 |container|tags|
 |---------|----|
 |[Debian](https://hub.docker.com/r/buluma/docker-molecule-images)|all|
-|[Ubuntu](https://hub.docker.com/r/buluma/docker-molecule-images)|all|
+|[Ubuntu](https://hub.docker.com/r/buluma/docker-molecule-images)|resolute, noble|
 
 The minimum version of Ansible required is 2.19, tests have been done on:
 
